@@ -1,11 +1,14 @@
 swagger: '2.0'
 info:
-  version: "0.0.1"
-  title: <IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
-  description: <IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+  title: Example yaml.spec
+  description: This is an example text **HELLO FROM MARKDOWN**
 paths:
-  /:
+  /accounts:
     get:
       responses:
-        200:
-          description: Successful response
+        '200':
+          description: No response was specified
+      tags:
+        - accounts
+      operationId: findAccounts
+      summary: Finds all accounts

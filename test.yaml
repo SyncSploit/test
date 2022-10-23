@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
   version: "0.0.1"
-  title: Example Title
-  description: <img src=x onerror="alert('all your base are belong to us')">
+  title: <IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+  description: <IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
 paths:
   /:
     get:
